@@ -25,3 +25,37 @@ Thus, any item that has been on the shelf for more than 2 months cannot be sold.
 Option B: Keep Factor1 at Level 1, and Factory 5 at Level 2.  Compare the performances of systems across the design points of F2, F3 and F4 (total 8 combinations). Also, find the minimum mean monthly profit combination of M and L such that CSL is >= 95%
 
 ## Results
+
+(a)	Make ten independent replications for the (M, L ) = (50, 30) policy, and estimate long-run mean monthly cost and profit with a 90% confidence interval.
+
+1.	mean of 90% CI for mean_monthly_cost 235.26 90% CI half width for mean_monthly_cost 5.14
+
+2.	mean of 90% CI for monthly_profit 12.7 90% CI half width for monthly_profit 4.35
+
+These 2 CI’s were build using 10 replications and 100 months simulation run.
+
+Warm up period was assumed to be zero as it was not mentioned in question.
+
+(b)	Using results of part(a), estimate the total number of replications needed to estimate mean monthly cost within $5.Run the model the required number of replications and construct the CI.
+
+Using R_required =
+
+R*(current_half_width)^2/(required_half_width)^2
+
+required_half_width = 5
+
+current_half_width = 5.14
+ 
+R_required = 11
+
+After running simulation again for 11 replications-
+
+NEW HALF WIDTH FOR 90% CI OF MONTHLY COST =  3.71
+
+C). Comparing Alternatives
+
+Option B Topic 2
+
+Keep F1 fixed to level 1 and F5 to level 2.
+
+Main and interaction effect of F2, F3, and F4 on mean_monthly_profit-
