@@ -68,3 +68,5 @@ Find the maximum mean monthly profit combination of M and L such that CSL is >= 
  
 For this first we build the response surface for monthly_profit with F3 and F4.
 
+![](https://github.com/kshitij-pro/simulation/blob/388fb2eabe5785ad6e6689e82b685c2559e12024/Screenshot%202021-08-13%20163017.png)
+
