@@ -84,6 +84,8 @@ Low value of e34_bar indicates that there combined effect on monthly_profit is n
 
 In the similar manner we also calculated effect on cycle service level (csl) by F3 and F4
 
+![](https://github.com/kshitij-pro/simulation/blob/96bc2a8d8642141c95b4174d6917ac168462727e/Screenshot%202021-08-13%20163408.png)
+
 Clearly switching F3 from 50 to 100 increases cls by 0.22 on average but F4 has no. effect as the CI contains zero.
 
 So, there is a tradeoff between the mean_monthly_profit and CSL. If we decrease M and L then there is positive change in mean_monthly_profit and negative change in csl. So according to OptionB we need to find minimum value of M and L so that profit is max. and csl >= 0.95
