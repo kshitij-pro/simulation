@@ -12,6 +12,7 @@ The time between demands is exponentially distributed with a mean of 1/15 month.
 
 Now, the items are perishable, with a selling price given by the following data:
 
+![](https://github.com/kshitij-pro/simulation/blob/2579c4d4341003baa41e0db70a72eba79478c6a6/Screenshot%202021-08-13%20161536.png)
 
 Thus, any item that has been on the shelf for more than 2 months cannot be sold. The age is measured at the time the demand occurs. If an item is outdated, it is discarded, and the next time is brought forward. Simulate the system for 100 months.
 
