@@ -70,3 +70,16 @@ For this first we build the response surface for monthly_profit with F3 and F4.
 
 ![](https://github.com/kshitij-pro/simulation/blob/388fb2eabe5785ad6e6689e82b685c2559e12024/Screenshot%202021-08-13%20163017.png)
 
+e3_bar = -66.32
+
+e4_bar = -8.03
+
+e34_bar = -0.35
+
+e3_bar = -66.32 means that when M is switched from 50(low) to 100(high) on average profit is reduced by 66.32 So low value of M is preferred for good profit.
+
+Similarly, e4_bar = -8.03 means that if L is switched from 30(low) to 40(high) then on average monthly profit is reduced by 8.03. So low value of L is preferred for good profit.
+
+Low value of e34_bar indicates that there combined effect on monthly_profit is negligible so the response surface is more or less a plane.
+
+In the similar manner we also calculated effect on cycle service level (csl) by F3 and F4
