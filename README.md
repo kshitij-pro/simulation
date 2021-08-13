@@ -59,3 +59,5 @@ Option B Topic 2
 Keep F1 fixed to level 1 and F5 to level 2.
 
 Main and interaction effect of F2, F3, and F4 on mean_monthly_profit-
+
+![](https://github.com/kshitij-pro/simulation/blob/2fdb3ee1da96e976443470c1c1c18e44fb00d13d/Screenshot%202021-08-13%20163000.png)
