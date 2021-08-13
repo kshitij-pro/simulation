@@ -1,4 +1,6 @@
-# simulation
+# Simulation
+
+## Problem Statement
 
 Consider an (M, L) inventory system in which procurement quantity Q is given by
 
@@ -23,3 +25,5 @@ Thus, any item that has been on the shelf for more than 2 months cannot be sold.
 ![](https://github.com/kshitij-pro/simulation/blob/2794e457bd502ccb657b5bba371a30384c0667cf/Screenshot%202021-08-13%20162233.png)
 
 Option B: Keep Factor1 at Level 1, and Factory 5 at Level 2.  Compare the performances of systems across the design points of F2, F3 and F4 (total 8 combinations). Also, find the minimum mean monthly profit combination of M and L such that CSL is >= 95%
+
+## Results
