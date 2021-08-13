@@ -8,6 +8,7 @@ where I is the level of inventory on hand plus order at the end of the month, M 
 
 The time between demands is exponentially distributed with a mean of 1/15 month. The sizes of the demand follow this distribution:
 
+![](https://github.com/kshitij-pro/simulation/blob/cffe2cb0edff76044f2e9587bfa6b437e87197d5/Screenshot%202021-08-13%20161517.png)
 
 Now, the items are perishable, with a selling price given by the following data:
 
@@ -17,5 +18,3 @@ Thus, any item that has been on the shelf for more than 2 months cannot be sold.
 (a)	Make ten independent replications for the (M, L ) = (50, 30) policy, and estimate long-run mean monthly cost and profit with a 90% confidence interval.
 
 (b)	Using results of part(a), estimate the total number of replications needed to estimate mean monthly cost within $5. Run the model the required number of replications and construct the CI.
-
-
