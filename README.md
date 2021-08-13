@@ -1,5 +1,3 @@
-# Simulation
-
 ## Problem Statement
 
 Consider an (M, L) inventory system in which procurement quantity Q is given by
