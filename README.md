@@ -83,3 +83,15 @@ Similarly, e4_bar = -8.03 means that if L is switched from 30(low) to 40(high) t
 Low value of e34_bar indicates that there combined effect on monthly_profit is negligible so the response surface is more or less a plane.
 
 In the similar manner we also calculated effect on cycle service level (csl) by F3 and F4
+
+Clearly switching F3 from 50 to 100 increases cls by 0.22 on average but F4 has no. effect as the CI contains zero.
+
+So, there is a tradeoff between the mean_monthly_profit and CSL. If we decrease M and L then there is positive change in mean_monthly_profit and negative change in csl. So according to OptionB we need to find minimum value of M and L so that profit is max. and csl >= 0.95
+
+M* = 108
+
+L*=80
+
+Csl* = 0.953
+
+Mean_monthly_profit* = -Rs. 130.22
